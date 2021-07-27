@@ -20,8 +20,11 @@ I used a bi-directional LSTM augemented by pre-trained word emeddings as my prim
 5) Train/Tune Model 
 6) Make Predictions on Kaggle dataset
 
+### *Update
+
+After experimenting with a new approach utilizing BERT (via huggingface transformer package), I have improved my score (0.81887) and ranking (824) in the kaggle competition, with no changes to preprocessing. Code in disaster_tweets_nb_BERT.ipynb.
+
 ### TO DO
 
 1) Improve preprocessing of tweets.  For example, saw others mapping common shorthand like 'lol' to 'laugh out loud', etc
-2) Experiment with different word embeddings (gloVe, for example)
 
